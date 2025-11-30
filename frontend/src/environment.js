@@ -1,6 +1,6 @@
 let IS_PROD = true;
 const server = IS_PROD ?
-    "https://teamconnect-backend-9wjy.onrender.com" :
+    "https://teamconnect-backend-wls1.onrender.com" :
 
     "http://localhost:8000"
 

@@ -8,7 +8,7 @@ let timeOnline = {}
 export const connectToSocket = (server) => {
     const io = new Server(server, {
         cors: {
-            origin: "https://teamconnect-frontend.onrender.com",
+            origin: "*",
             methods: ["GET", "POST"],
             allowedHeaders: ["*"],
             credentials: true
